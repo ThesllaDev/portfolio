@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-stroke-white {
+  text-shadow:
+    -1px -1px 0 #f3f3f3,
+    -1px 1px 0 #f3f3f3,
+    1px -1px 0 #f3f3f3,
+    1px 0 0 #f3f3f3;
+}
+
+.object-neon-glow {
+  box-shadow: 0 0 20px #db0032;
+}

@@ -10,6 +10,7 @@ module.exports = {
       white: "#F3F3F3",
       blue: "#0A2240",
       red: "#DB0032",
+      black: "#030303",
     },
   },
   plugins: [],

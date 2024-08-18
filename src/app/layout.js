@@ -1,8 +1,10 @@
 import { Press_Start_2P } from "next/font/google";
+import MenuNavBar from "@/components/MenuNavBar";
+import "./globals.css";
 
 const pressStart2P = Press_Start_2P({
-  weight: '400',
-  subsets: ['latin'],
+  weight: "400",
+  subsets: ["latin"],
 });
 
 export const metadata = {
@@ -13,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={pressStart2P.className}>{children}</body>
+      <body className={`${pressStart2P.className} bg-blue text-white`}>
+        <MenuNavBar />
+        {children}
+      </body>
     </html>
   );
 }
