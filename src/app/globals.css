@@ -13,3 +13,34 @@
 .object-neon-glow {
   box-shadow: 0 0 20px #db0032;
 }
+
+.main-title-logo {
+  text-shadow:
+    -1px -1px 50px #f3f3f3,
+    -1px 1px 0 #f3f3f3,
+    1px -1px 0 #f3f3f3,
+    1px 0px 50px #f3f3f3,
+    0 0 2px #db0032,
+    0 0 4px #db0032,
+    0 0 6px #f3f3f3,
+    0 0 8px #db0032,
+    0 0 10px #db0032,
+    0 0 12px #f3f3f3,
+    0 10px 3px #030303;
+  color: #db0032;
+}
+
+.secondary-title-logo {
+  text-shadow:
+    -1px -1px 50px #db0032,
+    1px -1px 0 #db0032,
+    -1px 1px 0 #db0032,
+    1px 1px 50px #db0032,
+    0 0 2px #db0032,
+    0 0 4px #db0032,
+    0 0 6px #db0032,
+    0 0 8px #db0032,
+    0 0 10px #db0032,
+    0 0 12px #db0032,
+    0 10px 3px #000;
+}
