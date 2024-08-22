@@ -1,10 +1,10 @@
-export default function TitleSection({ text, hrWidth }) {
+export default function TitleSection({ text }) {
   return (
-    <header className="p-4">
-      <h2 className="title-section text-center text-2xl">{text}</h2>
+    <div className="p-4">
+      <h2 className="title-section text-2xl">{text}</h2>
       <hr
-        className={`mx-auto h-[3px] bg-red text-red blur-[1px] max-w-[${hrWidth}px]`}
+        className="h-[3px] bg-red text-red blur-[1px]"
       />
-    </header>
+    </div>
   );
 }

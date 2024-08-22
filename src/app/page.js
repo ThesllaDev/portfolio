@@ -24,7 +24,7 @@ export default function Home() {
           <h2 className="mb-4 mt-8 text-center text-2xl">
             Olá! Meu nome é Thalles Augusto
           </h2>
-          <TitleSection text="Sobre mim" hrWidth={230} />
+          <TitleSection text="Sobre mim" />
         </header>
         <article className="mb-4">
           <p className="max-w-prose text-center font-sans">
