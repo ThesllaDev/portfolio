@@ -5,7 +5,7 @@ const technologyIconCode = {
   "SASS": "FaSass",
   "React": "FaReact",
   "Next.js": "RiNextjsFill",
-	"Tailwind CSS": "RiTailwindCssFill"
+  "Tailwind CSS": "RiTailwindCssFill"
 };
 
 export default technologyIconCode;

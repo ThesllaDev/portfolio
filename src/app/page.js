@@ -50,7 +50,7 @@ export default function Home() {
         </footer>
       </section>
 			<section id="projects" className="flex flex-wrap justify-center gap-4">
-				<header className="flex flex-col items-center w-full p-4">
+        <header className="flex w-full flex-col items-center p-4">
 					<TitleSection text="Projetos" />
 				</header>
 				<ProjectCard projectsDatas={projects} />
