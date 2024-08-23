@@ -1,6 +1,8 @@
 import Image from "next/image";
 import TitleSection from "@/components/TitleSection";
 import LinkButton from "@/components/LinkButton";
+import projects from "@/data/projects";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
@@ -47,6 +49,12 @@ export default function Home() {
           />
         </footer>
       </section>
+			<section id="projects" className="flex flex-wrap justify-center gap-4">
+				<header className="flex flex-col items-center w-full p-4">
+					<TitleSection text="Projetos" />
+				</header>
+				<ProjectCard projectsDatas={projects} />
+			</section>
     </main>
   );
 }
