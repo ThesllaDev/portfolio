@@ -1,14 +1,33 @@
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { FaHtml5, FaCss3Alt, FaJs, FaSass, FaReact } from "react-icons/fa6";
+import {
+  SiCodepen,
+  SiCss3,
+  SiDevdotto,
+  SiGithub,
+  SiGmail,
+  SiHtml5,
+  SiJavascript,
+  SiLinkedin,
+  SiNextdotjs,
+  SiReact,
+  SiSass,
+  SiTailwindcss,
+} from "react-icons/si";
+import { FaGlobe } from "react-icons/fa6";
 
 const iconMap = {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaSass,
-  FaReact,
-  RiNextjsFill,
-  RiTailwindCssFill,
+  FaGlobe,
+  SiCodepen,
+  SiCss3,
+  SiDevdotto,
+  SiGithub,
+  SiGmail,
+  SiHtml5,
+  SiJavascript,
+  SiLinkedin,
+  SiNextdotjs,
+  SiReact,
+  SiSass,
+  SiTailwindcss,
 };
 
 export default function Icon({ iconCode }) {

@@ -62,6 +62,46 @@ export default function Home() {
         </header>
         <SkillTabContent />
       </section>
+      <section id="contacts">
+        <header className="flex w-full flex-col items-center p-4">
+          <TitleSection text="Contato" />
+        </header>
+        <ul className="flex w-full flex-col items-center justify-center gap-6 text-black">
+          <li>
+            <LinkButton
+              textLink="LinkedIn"
+              urlLink="https://linkedin.com/in/thalles-augusto/"
+            />
+          </li>
+          <li>
+            <LinkButton
+              textLink="Gmail"
+              urlLink="https://github.com/ThesllaDev"
+            />
+          </li>
+        </ul>
+        <h3 className="p-4 text-center text-xl">Conecte-se comigo</h3>
+        <ul className="flex w-full flex-col items-center justify-center gap-6 text-black">
+          <li>
+            <LinkButton
+              textLink="GitHub"
+              urlLink="https://linkedin.com/in/thalles-augusto/"
+            />
+          </li>
+          <li>
+            <LinkButton
+              textLink="Codepen"
+              urlLink="https://github.com/ThesllaDev"
+            />
+          </li>
+          <li>
+            <LinkButton
+              textLink="Dev.to"
+              urlLink="https://github.com/ThesllaDev"
+            />
+          </li>
+        </ul>
+      </section>
     </main>
   );
 }

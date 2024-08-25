@@ -1,11 +1,17 @@
 const technologyIconCode = {
-  "HTML5": "FaHtml5",
-  "CSS3": "FaCss3Alt",
-  "JavaScript": "FaJs",
-  "SASS": "FaSass",
-  "React": "FaReact",
-  "Next.js": "RiNextjsFill",
-  "Tailwind CSS": "RiTailwindCssFill"
+  "Codepen": "SiCodepen",
+  "CSS3": "SiCss3",
+  "Dev.to": "SiDevdotto",
+  "GitHub": "SiGithub",
+  "Gmail": "SiGmail",
+  "HTML5": "SiHtml5",
+  "JavaScript": "SiJavascript",
+  "LinkedIn": "SiLinkedin",
+  "Next.js": "SiNextdotjs",
+  "Preview": "FaGlobe",
+  "React": "SiReact",
+  "SASS": "SiSass",
+  "Tailwind CSS": "SiTailwindcss",
 };
 
 export default technologyIconCode;
