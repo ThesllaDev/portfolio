@@ -76,7 +76,7 @@ export default function Home() {
           <li>
             <LinkButton
               textLink="Gmail"
-              urlLink="https://github.com/ThesllaDev"
+              urlLink="mailto:ThesllaDev@gmail.com"
             />
           </li>
         </ul>
@@ -85,19 +85,19 @@ export default function Home() {
           <li>
             <LinkButton
               textLink="GitHub"
-              urlLink="https://linkedin.com/in/thalles-augusto/"
+              urlLink="https://github.com/ThesllaDev"
             />
           </li>
           <li>
             <LinkButton
               textLink="Codepen"
-              urlLink="https://github.com/ThesllaDev"
+              urlLink="https://codepen.io/theslladev"
             />
           </li>
           <li>
             <LinkButton
               textLink="Dev.to"
-              urlLink="https://github.com/ThesllaDev"
+              urlLink="https://dev.to/theslladev"
             />
           </li>
         </ul>
