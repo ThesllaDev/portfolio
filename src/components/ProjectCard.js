@@ -11,7 +11,17 @@ export default function ProjectCard({ projectsDatas }) {
           className="object-neon-glow flex max-w-xl flex-col border-2 border-solid border-red bg-white p-4 text-black"
         >
           <header>
-            <video className="lg:h-[370px]" width="540" height="370" controls>
+            <video
+							className="lg:h-[370px]"
+							width="540"
+							height="370"
+							controls
+							preload="metadata"
+						>
+              <source
+                src={`/videos/video-preview-project-${project.id}.webm`}
+                type="video/webm"
+              />
               <source
                 src={`/videos/video-preview-project-${project.id}.mp4`}
                 type="video/mp4"
