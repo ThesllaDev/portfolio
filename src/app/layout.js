@@ -1,6 +1,7 @@
 import { Press_Start_2P } from "next/font/google";
-import MenuNavBar from "@/components/MenuNavBar";
 import "./globals.css";
+import MenuNavBar from "@/components/MenuNavBar";
+import Footer from "@/components/Footer";
 
 const pressStart2P = Press_Start_2P({
   weight: "400",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${pressStart2P.className} bg-blue text-white`}>
         <MenuNavBar />
         {children}
+				<Footer />
       </body>
     </html>
   );
