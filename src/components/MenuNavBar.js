@@ -15,7 +15,7 @@ export default function MenuNavBar() {
   };
 
   return (
-    <header className="flex flex-col justify-between p-4 md:flex-row">
+    <header className="flex flex-col p-4 lg:flex-row lg:justify-between">
       <div className="flex items-center justify-between">
         <Link
           href="/"
@@ -25,7 +25,7 @@ export default function MenuNavBar() {
           ThesllaDev
         </Link>
         <button
-          className="object-neon-glow rounded-lg border-2 border-solid border-red bg-white stroke-blue md:hidden"
+          className="object-neon-glow rounded-lg border-2 border-solid border-red bg-white lg:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg
@@ -48,9 +48,9 @@ export default function MenuNavBar() {
       <nav
         className={`${
           isOpen ? "flex" : "hidden"
-        } justify-end bg-white py-4 text-black md:flex md:flex-row md:items-center md:bg-blue md:text-white`}
+        } bg-white py-4 text-black lg:flex lg:bg-blue lg:text-white`}
       >
-        <ul className="flex w-full flex-col gap-2 text-end md:flex-row">
+        <ul className="flex w-full flex-col gap-2 text-end lg:flex-row">
           <li>
             <Link
               href="/"

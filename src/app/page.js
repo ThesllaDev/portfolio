@@ -8,15 +8,13 @@ import SkillTabContent from "@/components/SkillTabContent";
 export default function Home() {
   return (
     <main className="p-4">
-      <header className="break-all py-8 text-center">
-        <h1 className="main-title-logo text-[2rem]">ThesllaDev</h1>
-        <h2 className="secondary-title-logo mt-2 text-[2rem]">
-          Desenvolvedor Front-end
-        </h2>
-        <hr className="mx-auto h-[3px] max-w-3xl bg-red text-red blur-[1px]" />
+      <header className="break-all py-8 text-center text-[2rem]">
+        <h1 className="main-title-logo">ThesllaDev</h1>
+        <h2 className="secondary-title-logo mt-2">Desenvolvedor Front-end</h2>
+        <hr className="h-[3px] bg-red text-red blur-[1px] md:mx-auto md:max-w-3xl" />
       </header>
       <section className="flex flex-col items-center" id="about">
-        <header className="flex flex-col items-center p-4">
+        <header className="flex flex-col items-center py-4">
           <Image
             src="/img/me-profile-photo.png"
             className="object-neon-glow border-2 border-dashed border-red"
@@ -30,7 +28,7 @@ export default function Home() {
           <TitleSection text="Sobre mim" />
         </header>
         <article className="mb-4">
-          <p className="max-w-prose text-center font-sans">
+          <p className="text-center font-sans sm:max-w-prose">
             Desenvolvedor com foco em Front-End, com conhecimentos de Back-End e
             fundamentos de cyber segurança, em constante evolução, apaixonado
             por tecnologia e transformar designs em websites funcionais. Focado
@@ -57,16 +55,16 @@ export default function Home() {
         <ProjectCard projectsDatas={projects} />
       </section>
       <section id="skills">
-        <header className="flex w-full flex-col items-center p-4">
+        <header className="flex flex-col items-center p-4">
           <TitleSection text="Habilidades" />
         </header>
         <SkillTabContent />
       </section>
       <section id="contacts">
-        <header className="flex w-full flex-col items-center p-4">
+        <header className="flex flex-col items-center p-4">
           <TitleSection text="Contato" />
         </header>
-        <ul className="flex w-full flex-col items-center justify-center gap-6 text-black">
+        <ul className="flex flex-col items-center gap-6 text-black">
           <li>
             <LinkButton
               textLink="LinkedIn"
@@ -81,7 +79,7 @@ export default function Home() {
           </li>
         </ul>
         <h3 className="p-4 text-center text-xl">Conecte-se comigo</h3>
-        <ul className="flex w-full flex-col items-center justify-center gap-6 text-black">
+        <ul className="flex flex-col items-center gap-6 text-black">
           <li>
             <LinkButton
               textLink="GitHub"
@@ -95,10 +93,7 @@ export default function Home() {
             />
           </li>
           <li>
-            <LinkButton
-              textLink="Dev.to"
-              urlLink="https://dev.to/theslladev"
-            />
+            <LinkButton textLink="Dev.to" urlLink="https://dev.to/theslladev" />
           </li>
         </ul>
       </section>

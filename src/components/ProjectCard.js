@@ -31,11 +31,9 @@ export default function ProjectCard({ projectsDatas }) {
             ))}
           </ul>
           <footer className="mb-4 mt-8 flex flex-col justify-end gap-6 lg:grow">
-            <div>
-              <p className="font-sans">
-                Visualize-o funcionando clicando no botão abaixo "Preview"
-              </p>
-              <p className="font-sans">
+            <div className="font-sans">
+              <p>Visualize-o funcionando clicando no botão abaixo "Preview"</p>
+              <p>
                 Acesse o código e mais informações clique no botão abaixo
                 "GitHub"
               </p>
