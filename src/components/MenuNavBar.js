@@ -31,10 +31,12 @@ export default function MenuNavBar() {
           href="/"
           onClick={() => handleClick("")}
           className={`text-stroke-white text-red ${activeHash === "" ? "underline" : ""}`}
+					aria-current={activeHash === "" ? "page" : undefined}
         >
           ThesllaDev
         </Link>
         <button
+					aria-label="Toggle navbar menu"
           className="object-neon-glow rounded-lg border-2 border-solid border-red bg-white lg:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
@@ -66,6 +68,7 @@ export default function MenuNavBar() {
               href="/"
               onClick={() => handleClick("")}
               className={`${basedStyleLinks} ${activeHash === "" ? "underline" : ""}`}
+							aria-current={activeHash === "" ? "page" : undefined}
             >
               Início
             </Link>
@@ -75,6 +78,7 @@ export default function MenuNavBar() {
               href="#about"
               onClick={() => handleClick("#about")}
               className={`${basedStyleLinks} ${activeHash === "#about" ? "underline" : ""}`}
+							aria-current={activeHash === "#about" ? "page" : undefined}
             >
               Sobre
             </Link>
@@ -84,6 +88,7 @@ export default function MenuNavBar() {
               href="#projects"
               onClick={() => handleClick("#projects")}
               className={`${basedStyleLinks} ${activeHash === "#projects" ? "underline" : ""}`}
+							aria-current={activeHash === "#projects" ? "page" : undefined}
             >
               Projetos
             </Link>
@@ -93,6 +98,7 @@ export default function MenuNavBar() {
               href="#skills"
               onClick={() => handleClick("#skills")}
               className={`${basedStyleLinks} ${activeHash === "#skills" ? "underline" : ""}`}
+							aria-current={activeHash === "#skills" ? "page" : undefined}
             >
               Habilidades
             </Link>
@@ -102,6 +108,7 @@ export default function MenuNavBar() {
               href="#contacts"
               onClick={() => handleClick("#contacts")}
               className={`${basedStyleLinks} ${activeHash === "#contacts" ? "underline" : ""}`}
+							aria-current={activeHash === "#contacts" ? "page" : undefined}
             >
               Contatos
             </Link>
