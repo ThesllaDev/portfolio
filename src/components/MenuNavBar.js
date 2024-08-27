@@ -7,12 +7,22 @@ export default function MenuNavBar() {
   const [activeHash, setActiveHash] = useState("");
 
   useEffect(() => {
-    setActiveHash(window.location.hash);
+    const handleHashChange = () => {
+			setActiveHash(window.location.hash);
+		};
+
+		window.addEventListener("hashchange", handleHashChange);
+
+		return () => {
+			window.removeEventListener("hashchange", handleHashChange);
+		};
   }, []);
 
   const handleClick = (hash) => {
     setActiveHash(hash);
   };
+
+	const basedStyleLinks = "block px-4 py-2 hover:bg-red hover:text-white";
 
   return (
     <header className="flex flex-col p-4 lg:flex-row lg:justify-between">
@@ -55,7 +65,7 @@ export default function MenuNavBar() {
             <Link
               href="/"
               onClick={() => handleClick("")}
-              className={`block px-4 py-2 hover:bg-red hover:text-white ${activeHash === "" ? "underline" : ""}`}
+              className={`${basedStyleLinks} ${activeHash === "" ? "underline" : ""}`}
             >
               Início
             </Link>
@@ -64,7 +74,7 @@ export default function MenuNavBar() {
             <Link
               href="#about"
               onClick={() => handleClick("#about")}
-              className={`block px-4 py-2 hover:bg-red hover:text-white ${activeHash === "#about" ? "underline" : ""}`}
+              className={`${basedStyleLinks} ${activeHash === "#about" ? "underline" : ""}`}
             >
               Sobre
             </Link>
@@ -73,7 +83,7 @@ export default function MenuNavBar() {
             <Link
               href="#projects"
               onClick={() => handleClick("#projects")}
-              className={`block px-4 py-2 hover:bg-red hover:text-white ${activeHash === "#projects" ? "underline" : ""}`}
+              className={`${basedStyleLinks} ${activeHash === "#projects" ? "underline" : ""}`}
             >
               Projetos
             </Link>
@@ -82,7 +92,7 @@ export default function MenuNavBar() {
             <Link
               href="#skills"
               onClick={() => handleClick("#skills")}
-              className={`block px-4 py-2 hover:bg-red hover:text-white ${activeHash === "#skills" ? "underline" : ""}`}
+              className={`${basedStyleLinks} ${activeHash === "#skills" ? "underline" : ""}`}
             >
               Habilidades
             </Link>
@@ -91,7 +101,7 @@ export default function MenuNavBar() {
             <Link
               href="#contacts"
               onClick={() => handleClick("#contacts")}
-              className={`block px-4 py-2 hover:bg-red hover:text-white ${activeHash === "#contacts" ? "underline" : ""}`}
+              className={`${basedStyleLinks} ${activeHash === "#contacts" ? "underline" : ""}`}
             >
               Contatos
             </Link>
