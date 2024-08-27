@@ -28,7 +28,7 @@ export default function Home() {
           <TitleSection text="Sobre mim" />
         </header>
         <article className="mb-4">
-          <p className="text-center font-sans sm:max-w-prose">
+          <p className="text-center font-firaCode sm:max-w-prose">
             Desenvolvedor com foco em Front-End, com conhecimentos de Back-End e
             fundamentos de cyber segurança, em constante evolução, apaixonado
             por tecnologia e transformar designs em websites funcionais. Focado

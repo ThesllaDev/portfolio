@@ -13,7 +13,9 @@ export default function SkillList({ skillDatas }) {
             )}
             {skill.term}
           </dt>
-          <dd className="font-sans sm:max-w-prose">{skill.description}</dd>
+          <dd className="font-firaCode sm:max-w-prose lg:max-w-[50ch]">
+            {skill.description}
+          </dd>
         </div>
       ))}
     </dl>

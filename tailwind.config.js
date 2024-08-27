@@ -6,6 +6,11 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        firaCode: ["var(--font-fira-code)", "serif"],
+      },
+    },
     colors: {
       white: "#F3F3F3",
       blue: "#0A2240",
