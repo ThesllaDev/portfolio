@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 import TitleSection from "@/components/TitleSection";
 import LinkButton from "@/components/LinkButton";
 import projects from "@/data/projects";
@@ -6,6 +8,15 @@ import ProjectCard from "@/components/ProjectCard";
 import SkillTabContent from "@/components/SkillTabContent";
 
 export default function Home() {
+  const [imageHovered, setImageHovered] = useState(false);
+
+  const imageSrc = imageHovered
+    ? "/img/my-octocat.png"
+    : "/img/me-profile-photo.png";
+  const neonGlowStyle = imageHovered
+    ? "object-neon-glow"
+    : "object-neon-glow-white";
+
   return (
     <main className="p-4">
       <header className="break-all py-8 text-center text-[2rem]">
@@ -20,11 +31,13 @@ export default function Home() {
       <section className="flex flex-col items-center" id="about">
         <header className="flex flex-col items-center py-4">
           <Image
-            src="/img/me-profile-photo.png"
-            className="object-neon-glow border-4 border-double border-red"
+            src={imageSrc}
+            className={`border-4 border-double border-white duration-300 hover:border-red ${neonGlowStyle}`}
             alt="theslla profile photo"
             width={100}
             height={100}
+            onMouseEnter={() => setImageHovered(true)}
+            onMouseLeave={() => setImageHovered(false)}
           />
           <h2 className="mb-4 mt-8 text-center text-2xl">
             Olá! Meu nome é Thalles Augusto
