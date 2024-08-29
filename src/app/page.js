@@ -9,8 +9,12 @@ export default function Home() {
   return (
     <main className="p-4">
       <header className="break-all py-8 text-center text-[2rem]">
-        <h1 className="main-title-logo">ThesllaDev</h1>
-        <h2 className="secondary-title-logo mt-2">Desenvolvedor Front-end</h2>
+        <h1 className="main-title-logo">
+          Theslla<span>Dev</span>
+        </h1>
+        <h2 className="secondary-title-logo mt-2">
+          Desenvolvedor Front<span>-end</span>
+        </h2>
         <hr className="h-[3px] bg-red text-red blur-[1px] md:mx-auto md:max-w-3xl" />
       </header>
       <section className="flex flex-col items-center" id="about">

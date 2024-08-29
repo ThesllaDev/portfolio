@@ -35,6 +35,9 @@
     0 10px 3px #030303;
   color: #db0032;
 }
+.main-title-logo span {
+  animation: blink linear infinite 2s;
+}
 
 .secondary-title-logo {
   text-shadow:
@@ -50,6 +53,9 @@
     0 0 12px #db0032,
     0 10px 3px #000;
 }
+.secondary-title-logo span {
+  animation: blink linear infinite 3s;
+}
 
 .title-section {
   text-shadow:
@@ -60,4 +66,37 @@
     0 0 50px #1a459d,
     0 0 60px #1a459d,
     0 0 70px #1a459d;
+}
+
+@keyframes blink {
+  76% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  93% {
+    color: inherit;
+    text-shadow: inherit;
+  }
 }
