@@ -17,7 +17,7 @@ export default function Home() {
         <header className="flex flex-col items-center py-4">
           <Image
             src="/img/me-profile-photo.png"
-            className="object-neon-glow border-2 border-dashed border-red"
+            className="object-neon-glow border-4 border-double border-red"
             alt="theslla profile photo"
             width={100}
             height={100}

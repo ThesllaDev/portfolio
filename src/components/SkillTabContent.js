@@ -4,7 +4,7 @@ import { hardSkills, softSkills } from "@/data/skills";
 import SkillList from "./SkillList";
 
 export default function SkillTabContent() {
-  const [skillsActive, setskillsActive] = useState(true);
+  const [skillsActive, setSkillsActive] = useState(true);
 
   return (
     <article>
@@ -13,16 +13,16 @@ export default function SkillTabContent() {
           <ul className="flex flex-wrap justify-center gap-4">
             <li>
               <button
-                className={`object-neon-glow rounded-lg px-2 py-3 ${skillsActive === true ? "bg-red text-white outline outline-white" : "bg-white outline-dotted outline-red hover:bg-red hover:text-white hover:outline hover:outline-white"}`}
-                onClick={() => setskillsActive(true)}
+                className={`object-press-btn rounded-lg border-4 border-double px-2 py-3 delay-75 duration-75 ease-in-out ${skillsActive === true ? "object-neon-glow-white border-white bg-red text-white" : "border-red bg-white hover:border-white hover:bg-red hover:text-white"}`}
+                onClick={() => setSkillsActive(true)}
               >
                 Hard-Skills
               </button>
             </li>
             <li>
               <button
-                className={`object-neon-glow rounded-lg px-2 py-3 ${skillsActive === false ? "bg-red text-white outline outline-white" : "bg-white outline-dotted outline-red hover:bg-red hover:text-white hover:outline hover:outline-white"}`}
-                onClick={() => setskillsActive(false)}
+                className={`object-press-btn rounded-lg border-4 border-double px-2 py-3 delay-75 duration-75 ease-in-out ${skillsActive === false ? "object-neon-glow-white border-white bg-red text-white" : "border-red bg-white hover:border-white hover:bg-red hover:text-white"}`}
+                onClick={() => setSkillsActive(false)}
               >
                 Soft-Skills
               </button>

@@ -8,7 +8,7 @@ export default function ProjectCard({ projectsDatas }) {
       {projectsDatas.map((project) => (
         <article
           key={project.id}
-          className="object-neon-glow flex max-w-xl flex-col border-2 border-solid border-red bg-white p-4 text-black"
+          className="object-neon-glow flex max-w-xl flex-col border-4 border-double border-red bg-white p-4 text-black"
         >
           <header>
             <video
