@@ -47,9 +47,9 @@ export default function Home() {
         <article className="mb-4">
           <p className="text-center font-firaCode sm:max-w-prose">
             Desenvolvedor com foco em Front-End, com conhecimentos de Back-End e
-            fundamentos de cyber segurança, em constante evolução, apaixonado
-            por tecnologia e transformar designs em websites funcionais. Focado
-            na resolução de problemas, inclusão, acessibilidade, usabilidade e
+            fundamentos de cibersegurança, em constante evolução, apaixonado por
+            tecnologia e transformar designs em websites funcionais. Focado na
+            resolução de problemas, inclusão, acessibilidade, usabilidade e
             responsividade. Entusiasta de gamificação e open source, sempre
             buscando aprender e contribuir para projetos inovadores
           </p>
@@ -68,18 +68,34 @@ export default function Home() {
       <section id="projects" className="flex flex-wrap justify-center gap-4">
         <header className="flex w-full flex-col items-center p-4">
           <TitleSection text="Projetos" />
+          <p className="max-w-prose text-center font-firaCode">
+            Explore meus projetos de desenvolvimento web com código aberto e
+            demonstração ao vivo, criando soluções funcionais conforme os
+            estudos das tecnologias
+          </p>
         </header>
         <ProjectCard projectsDatas={projects} />
       </section>
       <section id="skills">
         <header className="flex flex-col items-center p-4">
           <TitleSection text="Habilidades" />
+          <p className="max-w-prose text-center font-firaCode">
+            Descubra minhas competências técnicas e interpessoais, incluindo
+            boas práticas, acessibilidade, optimização, desempenho, usabilidade
+            e práticas ágeis desde a prototipagem e design até o desenvolvimento
+            front-end
+          </p>
         </header>
         <SkillTabContent />
       </section>
       <section id="contacts">
         <header className="flex flex-col items-center p-4">
           <TitleSection text="Contato" />
+          <p className="max-w-prose text-center font-firaCode">
+            Entre em contato para networking, troca de idéias, discussão de
+            oportunidades ou esclarecimento de dúvidas. Ficarei feliz em
+            colaborar!
+          </p>
         </header>
         <ul className="flex flex-col items-center gap-6 text-black">
           <li>
