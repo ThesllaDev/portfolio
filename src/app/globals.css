@@ -68,6 +68,10 @@
     0 0 70px #1a459d;
 }
 
+h3 svg {
+	font-size: 1.5rem;
+}
+
 @keyframes blink {
   76% {
     color: inherit;
