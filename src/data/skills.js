@@ -61,6 +61,11 @@ export const hardSkills = {
                 "Linguagem de programação essencial para a web, que permite interatividade e dinamismo nas páginas. Seguir boas práticas de modularização, manipulação do DOM e tratamento de eventos é fundamental.",
             },
             {
+              term: "JSON(JavaScript Object Notation)",
+              description:
+                "Formato leve de intercâmbio de dados, amplamente utilizado para enviar e receber informações entre cliente e servidor. Facilita a organização e manipulação de dados estruturados, com foco na simplicidade e legibilidade.",
+            },
+            {
               term: "ES6(ECMAScript)",
               description:
                 "Versão do JavaScript que introduz recursos modernos, como arrow functions, classes e promessas. Permite escrever código mais conciso e legível, adotando boas práticas como a modularização e o uso de let e const para variáveis.",
@@ -147,6 +152,16 @@ export const hardSkills = {
       ],
       devTools: [
         {
+          name: "ESLint",
+          skills: [
+            {
+              term: "ESLint",
+              description:
+                "Ferramenta de linting para identificar e corrigir problemas no código JavaScript. Promove boas práticas de codificação, garantindo consistência e reduzindo erros em projetos colaborativos.",
+            },
+          ],
+        },
+        {
           name: "Git",
           skills: [
             {
@@ -163,6 +178,46 @@ export const hardSkills = {
               term: "GitHub",
               description:
                 "Plataforma de hospedagem de código que utiliza Git para controle de versão. Facilita a colaboração e a revisão de código, permitindo a integração contínua e o uso de pull requests para garantir a qualidade do software.",
+            },
+          ],
+        },
+        {
+          name: "GitHub Pages",
+          skills: [
+            {
+              term: "GitHub Pages",
+              description:
+                "Serviço de hospedagem gratuito da GitHub que permite publicar sites diretamente dos repositórios. Ideal para documentações, portfólios e demonstrações de projetos, com uma configuração simples.",
+            },
+          ],
+        },
+        {
+          name: "Prettier",
+          skills: [
+            {
+              term: "Prettier",
+              description:
+                "Ferramenta de formatação de código que assegura um estilo consistente em toda a base de código, automaticamente aplicando boas práticas de formatação para várias linguagens de programação.",
+            },
+          ],
+        },
+        {
+          name: "Vercel",
+          skills: [
+            {
+              term: "Vercel",
+              description:
+                "Plataforma de deploy rápida e otimizada para aplicações front-end, especialmente para projetos com Next.js. Facilita a integração contínua e o escalonamento, com foco em performance e usabilidade.",
+            },
+          ],
+        },
+        {
+          name: "Vite",
+          skills: [
+            {
+              term: "Vite",
+              description:
+                "Ferramenta de build e desenvolvimento que proporciona um ambiente de desenvolvimento rápido, utilizando ES modules. Ideal para projetos modernos com React e Vue, otimizando a experiência do desenvolvedor.",
             },
           ],
         },
@@ -185,11 +240,22 @@ export const hardSkills = {
       ],
       devTools: [
         {
-          name: "Git",
+          name: "Node.js",
           skills: [
             {
-              term: "Git",
-              description: "Git eh o kcaralho",
+              term: "Node.js",
+              description:
+                "Ambiente de execução JavaScript server-side, usado para construir aplicações web escaláveis e de alto desempenho. Permite a criação de servidores e APIs com boas práticas de modularidade e event-driven architecture.",
+            },
+          ],
+        },
+        {
+          name: "NPM",
+          skills: [
+            {
+              term: "NPM",
+              description:
+                "Gerenciador de pacotes do Node.js que facilita a instalação e gerenciamento de dependências em projetos JavaScript, garantindo a modularidade e reutilização de código.",
             },
           ],
         },
