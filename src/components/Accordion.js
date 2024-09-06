@@ -1,11 +1,10 @@
-import technologyIconCode from "@/data/technologyIconCode";
 import Icon from "./Icon";
 
 export default function Accordion({ skillDatas }) {
   return (
     <article key={skillDatas.name} className="w-full max-w-xl">
       <h3 className="flex items-center gap-2 border-b bg-white p-2 text-lg font-bold text-red">
-        <Icon iconCode={technologyIconCode[skillDatas.name]} />
+        <Icon iconName={skillDatas.name} />
         {skillDatas.name}
       </h3>
       <details name="skills">

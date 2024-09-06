@@ -1,4 +1,3 @@
-import technologyIconCode from "@/data/technologyIconCode";
 import Icon from "./Icon";
 import LinkButton from "./LinkButton";
 
@@ -37,7 +36,7 @@ export default function ProjectCard({ projectsDatas }) {
           <ul className="flex flex-wrap gap-2 text-white">
             {project.technologies.map((technologyName, index) => (
               <li className="flex items-center gap-2 bg-blue p-2" key={index}>
-                <Icon iconCode={technologyIconCode[technologyName]} />
+                <Icon iconName={technologyName} />
                 {technologyName}
               </li>
             ))}
