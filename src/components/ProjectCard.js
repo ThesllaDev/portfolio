@@ -43,10 +43,13 @@ export default function ProjectCard({ projectsDatas }) {
           </ul>
           <footer className="mb-4 mt-8 flex flex-col justify-end gap-6 lg:grow">
             <div className="font-firaCode">
-              <p>Visualize-o funcionando clicando no botão abaixo "Preview"</p>
+              <p>
+                Visualize-o funcionando clicando no botão abaixo
+                &quot;Preview&quot;
+              </p>
               <p>
                 Acesse o código e mais informações clique no botão abaixo
-                "GitHub"
+                &quot;GitHub&quot;
               </p>
             </div>
             <div className="flex justify-center gap-4">
