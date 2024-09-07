@@ -29,7 +29,7 @@ import {
   SiVercel,
   SiVite,
 } from "react-icons/si";
-import { FaGlobe } from "react-icons/fa6";
+import { FaFileLines, FaGlobe } from "react-icons/fa6";
 
 const technologyIconCode = {
   "ASP.NET Core": "SiDotnet",
@@ -57,6 +57,7 @@ const technologyIconCode = {
   Preview: "FaGlobe",
   React: "SiReact",
   "React Router": "SiReactrouter",
+  Resume: "FaFileLines",
   SASS: "SiSass",
   SQL: "SiMicrosoftsqlserver",
   "Tailwind CSS": "SiTailwindcss",
@@ -91,6 +92,7 @@ const iconMap = {
   SiPrettier,
   SiReact,
   SiReactrouter,
+  FaFileLines,
   SiSass,
   SiTailwindcss,
   SiVercel,

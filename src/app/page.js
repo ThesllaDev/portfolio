@@ -60,8 +60,8 @@ export default function Home() {
             urlLink="https://linkedin.com/in/thalles-augusto/"
           />
           <LinkButton
-            textLink="GitHub"
-            urlLink="https://github.com/ThesllaDev"
+            textLink="Resume"
+            urlLink="https://drive.google.com/file/d/1sIJ2pqV7iGGgcU8DLHeCy6eNZ1QCTv_D/view"
           />
         </footer>
       </section>
