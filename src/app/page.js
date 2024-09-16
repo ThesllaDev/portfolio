@@ -46,12 +46,19 @@ export default function Home() {
         </header>
         <article className="mb-4">
           <p className="text-center font-firaCode sm:max-w-prose">
-            Desenvolvedor com foco em Front-End, com conhecimentos de Back-End e
-            fundamentos de cibersegurança, em constante evolução, apaixonado por
-            tecnologia e transformar designs em websites funcionais. Focado na
-            resolução de problemas, inclusão, acessibilidade, usabilidade e
-            responsividade. Entusiasta de gamificação e open source, sempre
-            buscando aprender e contribuir para projetos inovadores
+            Fascinado por tecnologia e jogos desde criança, comecei a aprofundar
+            meus conhecimentos em desenvolvimento web com foco em front-end na
+            vida adulta. Com uma base sólida em HTML5, CSS3 e JavaScript, tanto
+            na forma vanilla quanto em bibliotecas e frameworks como Tailwind
+            CSS, React, e Next.js, busco criar interfaces que seguem padrões,
+            metodologias e boas práticas, combinando design com alta
+            performance, usabilidade, responsividade e acessibilidade.
+          </p>
+          <p className="text-center font-firaCode sm:max-w-prose">
+            Também possuo conhecimentos em UI/UX, back-end e fundamentos de
+            cibersegurança. Sou entusiasta de gamificação e open source, sempre
+            buscando evoluir e colaborar ativamente em projetos open source para
+            aprimorar minhas habilidades e contribuir com melhorias.
           </p>
         </article>
         <footer className="m-4 flex gap-4 text-black">

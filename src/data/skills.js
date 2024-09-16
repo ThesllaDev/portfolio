@@ -8,7 +8,7 @@ export const hardSkills = {
             {
               term: "Axios",
               description:
-                "Biblioteca JavaScript para fazer requisições HTTP de forma simplificada. Facilita o consumo de APIs RESTful e permite manipular respostas com promessas, seguindo boas práticas de modularidade e tratamento de erros.",
+                "Biblioteca JavaScript para fazer requisições HTTP(GET, POST, PUT, DELETE) de forma simplificada. Facilita o consumo de APIs RESTful e permite manipular respostas com promessas, seguindo boas práticas de modularidade e tratamento de erros.",
             },
           ],
         },
@@ -18,7 +18,7 @@ export const hardSkills = {
             {
               term: "BEM CSS",
               description:
-                "Metodologia de nomenclatura de classes CSS que promove código limpo e organizado. Facilita a manutenção e a escalabilidade do CSS em projetos grandes, separando blocos, elementos e modificadores.",
+                "Metodologia de nomenclatura de classes CSS que promove código limpo e organizado. Facilita a criação de estilos de componentes reutilizáveis, manutenção e a escalabilidade do CSS em projetos grandes, separando blocos, elementos e modificadores.",
             },
           ],
         },
@@ -28,7 +28,7 @@ export const hardSkills = {
             {
               term: "Bootstrap",
               description:
-                "Framework CSS que facilita o desenvolvimento de interfaces responsivas e móveis. Oferece componentes prontos e um sistema de grid, seguindo boas práticas de design consistente e acessível.",
+                "Framework CSS que facilita o desenvolvimento de interfaces responsivas. Oferece componentes prontos e um sistema de grid, seguindo boas práticas de design consistente e acessível.",
             },
           ],
         },
@@ -48,7 +48,7 @@ export const hardSkills = {
             {
               term: "HTML5",
               description:
-                "Linguagem de marcação usada para estruturar layouts e apresentar documentos de hipertexto em websites, utilizando-o de forma apropriada a favor da acessibilidade e SEO.",
+                "Linguagem de marcação usada para estruturar layouts e apresentar documentos de hipertexto em websites, utilizando-o de forma apropriada através de elementos semânticos a favor da acessibilidade e SEO.",
             },
           ],
         },
@@ -133,7 +133,7 @@ export const hardSkills = {
             {
               term: "Tailwind CSS",
               description:
-                "Framework CSS utilitário que permite a criação de interfaces rapidamente, sem sair do HTML. Promove boas práticas de design responsivo e consistência visual através de classes utilitárias.",
+                "Framework CSS utilitário que permite a criação de interfaces rapidamente, através de classes utilitárias. Promove boas práticas de design responsivo e consistência visual, facil de customizar e adaptar para qualquer design.",
             },
           ],
         },
@@ -167,7 +167,7 @@ export const hardSkills = {
             {
               term: "Git",
               description:
-                "Sistema de controle de versão distribuído que permite rastrear mudanças no código-fonte. Essencial para colaboração em equipe, seguindo boas práticas de versionamento, como commits frequentes e mensagens descritivas.",
+                "Sistema de controle de versão distribuído que permite rastrear mudanças no código-fonte. Essencial para colaboração em equipe, seguindo boas práticas de versionamento, como branchs, commits frequentes e mensagens descritivas.",
             },
           ],
         },
