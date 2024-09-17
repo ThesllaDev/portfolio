@@ -192,6 +192,16 @@ export const hardSkills = {
           ],
         },
         {
+          name: "Google Lighthouse",
+          skills: [
+            {
+              term: "Google Lighthouse",
+              description:
+                "Ferramenta automatizada de auditoria que avalia o desempenho, acessibilidade, SEO e boas práticas de páginas web. Ela fornece relatórios detalhados para identificar problemas e oportunidades de melhoria, ajudando desenvolvedores a otimizar seus sites para melhor experiência do usuário e velocidade. Seguir as recomendações do Lighthouse é uma boa prática para criar websites eficientes, acessíveis e com alto ranqueamento nos motores de busca.",
+            },
+          ],
+        },
+        {
           name: "Prettier",
           skills: [
             {
