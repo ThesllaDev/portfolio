@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scroll-behavior: smooth;
+}
+
 .text-stroke-white {
   text-shadow:
     -1px -1px 0 #f3f3f3,

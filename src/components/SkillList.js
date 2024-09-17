@@ -50,7 +50,7 @@ export default function SkillList({ skillDatas }) {
               {skill.term}
             </h3>
             <details name="skills">
-              <summary className="cursor-pointer bg-white p-2 font-firaCode text-sm text-black hover:bg-red hover:text-white">
+              <summary className="cursor-pointer bg-white p-2 font-firaCode text-sm text-black delay-75 duration-75 hover:bg-red hover:text-white">
                 <strong>Mais detalhes</strong>
               </summary>
               <dl className="border-4 border-double p-2">

@@ -22,7 +22,8 @@ export default function MenuNavBar() {
     setActiveHash(hash);
   };
 
-  const basedStyleLinks = "block px-4 py-2 hover:bg-red hover:text-white";
+  const basedStyleLinks =
+    "block px-4 py-2 delay-75 duration-75 ease-in-out hover:bg-red hover:text-white hover:underline";
 
   return (
     <header className="flex flex-col p-4 lg:flex-row lg:justify-between">
