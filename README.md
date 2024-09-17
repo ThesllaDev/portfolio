@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfólio de ThesllaDev
 
-## Getting Started
+Portfólio pessoal de desenvolvedor, criado para destacar meus projetos, habilidades e experiências, também possui informações sobre mim e formas de contato. O portfólio foi construído com Next.js e TailwindCSS, proporcionando uma interface moderna, responsiva e de fácil navegação.
 
-First, run the development server:
+https://github.com/user-attachments/assets/33d0b9ac-4902-425c-afc9-e8b17d37f356
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**🌐 Link do portfólio:** https://theslladev.vercel.app/
+
+## 🛠️ Tecnologias Utilizadas
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next JS](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Google Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=Lighthouse&logoColor=white)
+
+## 📂 Estrutura do Projeto
+
+``` bash
+├── public               # Pasta com os assets estáticos(imagens e vídeos)
+├── app
+│   ├── globals.css      # Estilos globais com TailwindCSS
+│   ├── layout.js        # Componente de layout padrão
+│   └── page.js          # Página inicial do portfólio
+├── components           # Pasta de componentes da interface reutilizáveis
+├── data
+│   ├── projects.js      # Dados sobre os projetos apresentados
+│   └── skills.js        # Dados das habilidades exibidas no portfólio
+└── tailwind.config.js   # Configuração e customização do TailwindCSS
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🤝 Contribuição
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+[Issues](https://github.com/ThesllaDev/portfolio/issues) ou sugestões são bem vindas, sinta-se à vontade!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+*Gostou do projeto? Dê uma "Star"*
 
-## Learn More
+Este projeto é de código aberto e está sob a licença MIT - veja o arquivo [LICENSE](https://github.com/ThesllaDev/portfolio/blob/main/LICENSE) para mais detalhes.
 
-To learn more about Next.js, take a look at the following resources:
+**Nota:**
+Eu concordo com qualquer um que queira utilizar o código ou o design do site para aprender com ele ou adaptá-lo. No entanto, eu encorajo você a modificar o tema, código e informações para torná-lo seu!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Eu apreciaria ser referenciado/creditado caso o utilize, considere isto.**
