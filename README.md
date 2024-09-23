@@ -25,6 +25,10 @@ https://github.com/user-attachments/assets/33d0b9ac-4902-425c-afc9-e8b17d37f356
 └── tailwind.config.js   # Configuração e customização do TailwindCSS
 ```
 
+### 🌟 Auditoria do Google Lighthouse
+
+![image](https://github.com/user-attachments/assets/b2aa5c2b-40d6-45fb-9652-ca2e2c481e22)
+
 ### 🤝 Contribuição
 
 [Issues](https://github.com/ThesllaDev/portfolio/issues) ou sugestões são bem vindas, sinta-se à vontade!
